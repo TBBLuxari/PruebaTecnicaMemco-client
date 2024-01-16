@@ -1,0 +1,175 @@
+.Bg 
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh; 
+    background-color: blue;
+    flex-wrap: wrap; 
+}
+
+.left /*inside Bg*/
+{
+    display: flex;
+    width: 66.66%; 
+    height: 100%;
+    background-color: rgb(17, 180, 196);
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-white /*inside left*/
+{   
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 75%; 
+    background-color: white;
+}
+
+.right /*inside Bg*/
+{
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    background-color: rgb(135, 135, 134);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title /*inside right*/
+{
+    color: white;
+    font-size:3em;
+    font-weight: 400;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-container /*inside right*/
+{
+    width: 85%;
+    height: 60%;
+
+    padding: 1em;
+    text-align: center;
+}
+
+.form /*inside form-container*/
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+}
+
+.label /*insidde form*/
+{
+    color: white;
+    font-size:large;
+    font-weight: 600;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: start;
+    margin-left:4%;
+    margin-bottom: 5px;
+}
+.inputs /*inside form*/
+{
+    width: 90%;
+    height: 15%;
+    margin-bottom: 20px;
+    align-self: center;
+    border-radius:6px;
+    border: 1px solid rgb(135, 135, 134);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: 2%;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+
+.inputs::placeholder
+{
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: start;
+    color: black;
+}
+
+.inputs:focus 
+{
+    outline: 2px solid  rgb(17, 180, 196);
+}
+.inputs:hover
+{
+    outline: 2px solid  rgb(17, 180, 196);
+}
+
+.button
+{
+    width: 90%;
+    height: 15%;
+    margin-bottom: 20px;
+    align-self: center;
+    border-radius:6px;
+    border: none;
+    box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.7);
+    background-color: rgb(17, 180, 196);
+    color: white;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+}
+
+.button:hover
+{
+    background-color: rgb(14, 149, 161);
+}
+
+.forgot /*form-container */
+{
+    color: white;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+.forgot:hover
+{
+    color: rgb(17, 180, 196);
+}
+
+.Need
+{ 
+    color: white;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Need a
+{
+    color: white;
+    font-family: system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Need a:hover
+{
+    color: rgb(17, 180, 196);
+}
